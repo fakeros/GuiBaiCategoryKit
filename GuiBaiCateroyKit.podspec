@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/fakeros/GuiBaiCateroyKit'
+  s.homepage         = 'https://github.com/fakeros/GuiBaiCategoryKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'caimingsong' => 'caimingsong@qiyi.com' }
-  s.source           = { :git => 'https://github.com/fakeros/GuiBaiCateroyKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fakeros/GuiBaiCategoryKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
