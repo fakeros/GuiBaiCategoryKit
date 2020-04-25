@@ -512,7 +512,7 @@
 				GCC_PREFIX_HEADER = "GuiBaiCateroyKit/GuiBaiCateroyKit-Prefix.pch";
 				INFOPLIST_FILE = "GuiBaiCateroyKit/GuiBaiCateroyKit-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MACH_O_TYPE = mh_execute;
+				MACH_O_TYPE = staticlib;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -533,7 +533,7 @@
 				GCC_PREFIX_HEADER = "GuiBaiCateroyKit/GuiBaiCateroyKit-Prefix.pch";
 				INFOPLIST_FILE = "GuiBaiCateroyKit/GuiBaiCateroyKit-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MACH_O_TYPE = mh_execute;
+				MACH_O_TYPE = staticlib;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

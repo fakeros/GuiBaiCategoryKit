@@ -12,4 +12,8 @@ open class SwiftMode: NSObject {
     @objc open class func show() {
         print("哈哈哈")
     }
+    
+    @objc func privateTest()  {
+        print("privateTest")
+    }
 }
