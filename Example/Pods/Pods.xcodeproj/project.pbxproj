@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09E615B84A55FFAD05611D48C88BB237 /* GuiBaiCateroyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E98233D6DC8C22511BCF08A12F592 /* GuiBaiCateroyKit-dummy.m */; };
-		12164DA1E3AAEB6A83AD7A00A90AF703 /* NSString+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBA26FD7B93149136D19D8ADEF24CD /* NSString+Test.m */; };
 		1D081BA25B0BA3AD21D11CD89F8E8EA6 /* Pods-GuiBaiCateroyKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E43154446235AA3227C289A1C141C8 /* Pods-GuiBaiCateroyKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47158D8A0E24E2476052DDF8BF514E26 /* NSString+Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CE2095513C894824A9F968AE1BB75EF /* NSString+Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44AF8D9E32F8047E1830E74F92D6DC45 /* NSString+Test.h in Headers */ = {isa = PBXBuildFile; fileRef = F46BE14705663AFEA62724559B42CD09 /* NSString+Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A88F7188C39AD696715647BC392C5CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5809783725C05C8D51098097E48DFE8D /* Pods-GuiBaiCateroyKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F7EED3F3CAA5530DA3D131AA58C535 /* Pods-GuiBaiCateroyKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67C1B1ED2AB2EB3431300C875D712C27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		798424D109DA29F82F0E7E09568B689B /* GuiBaiCateroyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 090461943911E6721057301A2D1741E6 /* GuiBaiCateroyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		669AC024A76BAD8D6DAB486E96AD7D56 /* GuiBaiCateroyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B0C2EAA6B578E7673C7642CB04BF3A /* GuiBaiCateroyKit-dummy.m */; };
+		7CDFB1EF00BD40F494F3A3B6B7314ED5 /* GuiBaiCateroyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC48D05B5582FBBF74A21666FEF1478 /* GuiBaiCateroyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D91F95B469C1ABBE1D401A319282FC3 /* NSString+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1120A697FF76867D48D93227AF82AA /* NSString+Test.m */; };
+		A259357840826EDC75A7399A6832656B /* TestSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767F630B40A3CCADB77FC46A90D9D00 /* TestSwift.swift */; };
 		B8E352F5EECA339BA521C1379D43A6BA /* Pods-GuiBaiCateroyKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E525C3AF56A28424DDD3D35146B09E /* Pods-GuiBaiCateroyKit_Example-dummy.m */; };
 		D11521EFB82777C678A37E1CDB16DED0 /* Pods-GuiBaiCateroyKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B45188EBEA50225DEA1E0CE473C5F41E /* Pods-GuiBaiCateroyKit_Tests-dummy.m */; };
 		D62FA61296E7BFA411EA8E59D1988E53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DFE2E4FAB692F72B3281E18841620AD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,61 +33,62 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C61C0726FF43B275A5A5EDF9AFE71116;
+			remoteGlobalIDString = CF54D8EB7AF2F39F62E9735720A6D3E4;
 			remoteInfo = GuiBaiCateroyKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		090461943911E6721057301A2D1741E6 /* GuiBaiCateroyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuiBaiCateroyKit-umbrella.h"; sourceTree = "<group>"; };
+		11B0C2EAA6B578E7673C7642CB04BF3A /* GuiBaiCateroyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GuiBaiCateroyKit-dummy.m"; sourceTree = "<group>"; };
 		11E525C3AF56A28424DDD3D35146B09E /* Pods-GuiBaiCateroyKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuiBaiCateroyKit_Example-dummy.m"; sourceTree = "<group>"; };
 		12267DE53615B2CC78BFE39A15A3BDCD /* Pods-GuiBaiCateroyKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiBaiCateroyKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1E1CA7B20AFB1CBB76035E0EFE54D1C7 /* Pods-GuiBaiCateroyKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuiBaiCateroyKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		29F7EED3F3CAA5530DA3D131AA58C535 /* Pods-GuiBaiCateroyKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuiBaiCateroyKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		2F045E7BE238D5766AD72783DBC712D3 /* GuiBaiCateroyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GuiBaiCateroyKit.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3CE2095513C894824A9F968AE1BB75EF /* NSString+Test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Test.h"; path = "GuiBaiCateroyKit/Classes/NSString+Test.h"; sourceTree = "<group>"; };
 		4E18AD7E7CADA8F69EA5178AE741E8AA /* Pods_GuiBaiCateroyKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuiBaiCateroyKit_Tests.framework; path = "Pods-GuiBaiCateroyKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52A18970A49603CC3ADDE6EA27B6EC4D /* GuiBaiCateroyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuiBaiCateroyKit-prefix.pch"; sourceTree = "<group>"; };
+		501D1A2BCF8B4BCF3F1EDF65D8E2E121 /* GuiBaiCateroyKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GuiBaiCateroyKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		57E4FD714D0132D25C7B475FE1613E62 /* Pods-GuiBaiCateroyKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiBaiCateroyKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		5914E403AD3EE1FDF7F823F461EEC310 /* Pods-GuiBaiCateroyKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiBaiCateroyKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A1120A697FF76867D48D93227AF82AA /* NSString+Test.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Test.m"; path = "GuiBaiCateroyKit/Classes/NSString+Test.m"; sourceTree = "<group>"; };
 		5E5AB911BDE4B088EF520C0799336922 /* Pods_GuiBaiCateroyKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuiBaiCateroyKit_Example.framework; path = "Pods-GuiBaiCateroyKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		649BC3955F80BB1BFE481323C1AF8F1E /* Pods-GuiBaiCateroyKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuiBaiCateroyKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6DFA63237ADFC873E865E8D0885FD471 /* Pods-GuiBaiCateroyKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiBaiCateroyKit_Example-Info.plist"; sourceTree = "<group>"; };
-		77006C31B05009E0CB6C16E77E782EC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8F56283217FB8D244C8A187B185C1496 /* GuiBaiCateroyKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GuiBaiCateroyKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		90477B2D21FF207C494592F33770BA52 /* GuiBaiCateroyKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GuiBaiCateroyKit-Info.plist"; sourceTree = "<group>"; };
-		9867DBB2A83E967C53C0BA7DC83BF345 /* GuiBaiCateroyKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GuiBaiCateroyKit.xcconfig; sourceTree = "<group>"; };
+		9767F630B40A3CCADB77FC46A90D9D00 /* TestSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestSwift.swift; path = GuiBaiCateroyKit/Classes/TestSwift.swift; sourceTree = "<group>"; };
+		9878B1CE42B0D8EF445B707D6C9F097A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		99521F4C48885C00CE0EC77D3BFBC9CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F412392632FF9C2593F24DD456D1F49 /* Pods-GuiBaiCateroyKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuiBaiCateroyKit_Tests.modulemap"; sourceTree = "<group>"; };
 		A0F55DAD6B5534F8DAA3A86C7FCF507C /* Pods-GuiBaiCateroyKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuiBaiCateroyKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AC2C90A3E2F2DB1708894F86544F19C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AA5C9A05D8DE78536AE4A933820851C1 /* GuiBaiCateroyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuiBaiCateroyKit-prefix.pch"; sourceTree = "<group>"; };
 		B45188EBEA50225DEA1E0CE473C5F41E /* Pods-GuiBaiCateroyKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuiBaiCateroyKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		C3DBAA5D570B34D59731BA67C0CA289D /* GuiBaiCateroyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GuiBaiCateroyKit.modulemap; sourceTree = "<group>"; };
 		C6E43154446235AA3227C289A1C141C8 /* Pods-GuiBaiCateroyKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuiBaiCateroyKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CE459ADBFECAAB6F9C453B1EE715C1A9 /* GuiBaiCateroyKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GuiBaiCateroyKit.xcconfig; sourceTree = "<group>"; };
 		D58B033AAA274009F19CB897FFABEEC4 /* Pods-GuiBaiCateroyKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuiBaiCateroyKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D8297556A1E35DA5293C76D4EBF94EBB /* Pods-GuiBaiCateroyKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuiBaiCateroyKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEC48D05B5582FBBF74A21666FEF1478 /* GuiBaiCateroyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuiBaiCateroyKit-umbrella.h"; sourceTree = "<group>"; };
 		DFC2B2E7059CBFAED0D84B8B81237569 /* Pods-GuiBaiCateroyKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuiBaiCateroyKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E3FBA26FD7B93149136D19D8ADEF24CD /* NSString+Test.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Test.m"; path = "GuiBaiCateroyKit/Classes/NSString+Test.m"; sourceTree = "<group>"; };
 		ECF6D43DF430DAF3289B35FD1FB50666 /* Pods-GuiBaiCateroyKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuiBaiCateroyKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EE0B3301FCA9B9286E6BA43BEDEDDA4B /* GuiBaiCateroyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GuiBaiCateroyKit.framework; path = GuiBaiCateroyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F15E98233D6DC8C22511BCF08A12F592 /* GuiBaiCateroyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GuiBaiCateroyKit-dummy.m"; sourceTree = "<group>"; };
+		F46BE14705663AFEA62724559B42CD09 /* NSString+Test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Test.h"; path = "GuiBaiCateroyKit/Classes/NSString+Test.h"; sourceTree = "<group>"; };
 		F690ABEF69C0FF3B645B138B82D2A0EA /* Pods-GuiBaiCateroyKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuiBaiCateroyKit_Example.modulemap"; sourceTree = "<group>"; };
+		F8E836AD09B2AFE0CD14445B8C052FA0 /* GuiBaiCateroyKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GuiBaiCateroyKit-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A10285CE423734A4FB1AA1E1DDE7E806 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67C1B1ED2AB2EB3431300C875D712C27 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B345B0D1557E6ECDD1D813BBC5F1A2CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4A88F7188C39AD696715647BC392C5CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D2EF26D44332529634ED835421C24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE2E4FAB692F72B3281E18841620AD5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +103,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04796B3EC1999CF5E52E5B694A2A982B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F045E7BE238D5766AD72783DBC712D3 /* GuiBaiCateroyKit.modulemap */,
+				CE459ADBFECAAB6F9C453B1EE715C1A9 /* GuiBaiCateroyKit.xcconfig */,
+				11B0C2EAA6B578E7673C7642CB04BF3A /* GuiBaiCateroyKit-dummy.m */,
+				F8E836AD09B2AFE0CD14445B8C052FA0 /* GuiBaiCateroyKit-Info.plist */,
+				AA5C9A05D8DE78536AE4A933820851C1 /* GuiBaiCateroyKit-prefix.pch */,
+				DEC48D05B5582FBBF74A21666FEF1478 /* GuiBaiCateroyKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GuiBaiCateroyKit";
+			sourceTree = "<group>";
+		};
 		126894D62219A05EB1ED47CA522181B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,28 +136,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		96B3A54360E5EAF5A295445832222BAF /* Support Files */ = {
+		8E2AEF79F8AE04FADE93C961FB12F8B2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C3DBAA5D570B34D59731BA67C0CA289D /* GuiBaiCateroyKit.modulemap */,
-				9867DBB2A83E967C53C0BA7DC83BF345 /* GuiBaiCateroyKit.xcconfig */,
-				F15E98233D6DC8C22511BCF08A12F592 /* GuiBaiCateroyKit-dummy.m */,
-				90477B2D21FF207C494592F33770BA52 /* GuiBaiCateroyKit-Info.plist */,
-				52A18970A49603CC3ADDE6EA27B6EC4D /* GuiBaiCateroyKit-prefix.pch */,
-				090461943911E6721057301A2D1741E6 /* GuiBaiCateroyKit-umbrella.h */,
+				F6784257F6184E226D88BF64CAA8F3E6 /* GuiBaiCateroyKit */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GuiBaiCateroyKit";
-			sourceTree = "<group>";
-		};
-		BE1D82B5FE5EB0DD16A6BD7EDEDA6A84 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8F56283217FB8D244C8A187B185C1496 /* GuiBaiCateroyKit.podspec */,
-				77006C31B05009E0CB6C16E77E782EC3 /* LICENSE */,
-				AC2C90A3E2F2DB1708894F86544F19C1 /* README.md */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -156,7 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F248B6918422BCB220195C33F7E970D2 /* Development Pods */,
+				8E2AEF79F8AE04FADE93C961FB12F8B2 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				126894D62219A05EB1ED47CA522181B2 /* Products */,
 				17C2381F8B88BBD097F23705D1F03605 /* Targets Support Files */,
@@ -171,24 +171,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EF5410921567B845E5D305CA5905B5C1 /* GuiBaiCateroyKit */ = {
+		E83BBB1245CAA90E573B3EC4D981C06B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3CE2095513C894824A9F968AE1BB75EF /* NSString+Test.h */,
-				E3FBA26FD7B93149136D19D8ADEF24CD /* NSString+Test.m */,
-				BE1D82B5FE5EB0DD16A6BD7EDEDA6A84 /* Pod */,
-				96B3A54360E5EAF5A295445832222BAF /* Support Files */,
+				501D1A2BCF8B4BCF3F1EDF65D8E2E121 /* GuiBaiCateroyKit.podspec */,
+				9878B1CE42B0D8EF445B707D6C9F097A /* LICENSE */,
+				99521F4C48885C00CE0EC77D3BFBC9CA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F6784257F6184E226D88BF64CAA8F3E6 /* GuiBaiCateroyKit */ = {
+			isa = PBXGroup;
+			children = (
+				F46BE14705663AFEA62724559B42CD09 /* NSString+Test.h */,
+				5A1120A697FF76867D48D93227AF82AA /* NSString+Test.m */,
+				9767F630B40A3CCADB77FC46A90D9D00 /* TestSwift.swift */,
+				E83BBB1245CAA90E573B3EC4D981C06B /* Pod */,
+				04796B3EC1999CF5E52E5B694A2A982B /* Support Files */,
 			);
 			name = GuiBaiCateroyKit;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		F248B6918422BCB220195C33F7E970D2 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EF5410921567B845E5D305CA5905B5C1 /* GuiBaiCateroyKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F981C09BE15E5C119D9A2A41BD6BBE0B /* Pods-GuiBaiCateroyKit_Example */ = {
@@ -227,20 +230,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		292422F995C2D45164B9D492C3DD16B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDFB1EF00BD40F494F3A3B6B7314ED5 /* GuiBaiCateroyKit-umbrella.h in Headers */,
+				44AF8D9E32F8047E1830E74F92D6DC45 /* NSString+Test.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56708511FC2B73A57D40542BEC4EF911 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1D081BA25B0BA3AD21D11CD89F8E8EA6 /* Pods-GuiBaiCateroyKit_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67554F85D7071199B57C6B85B02AFE7A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				798424D109DA29F82F0E7E09568B689B /* GuiBaiCateroyKit-umbrella.h in Headers */,
-				47158D8A0E24E2476052DDF8BF514E26 /* NSString+Test.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +296,14 @@
 			productReference = 4E18AD7E7CADA8F69EA5178AE741E8AA /* Pods_GuiBaiCateroyKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C61C0726FF43B275A5A5EDF9AFE71116 /* GuiBaiCateroyKit */ = {
+		CF54D8EB7AF2F39F62E9735720A6D3E4 /* GuiBaiCateroyKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FC4107374EAA4C34AAC9088F2C20C24 /* Build configuration list for PBXNativeTarget "GuiBaiCateroyKit" */;
+			buildConfigurationList = A92388BFDDDF022F26479934790B2C81 /* Build configuration list for PBXNativeTarget "GuiBaiCateroyKit" */;
 			buildPhases = (
-				67554F85D7071199B57C6B85B02AFE7A /* Headers */,
-				FA10F552D64395AEB052E45BA9C6BCAE /* Sources */,
-				A10285CE423734A4FB1AA1E1DDE7E806 /* Frameworks */,
-				27D2558DEAD21BE2C58484DCF9B180E5 /* Resources */,
+				292422F995C2D45164B9D492C3DD16B0 /* Headers */,
+				4B0F80B948BCF6FD7B9A4B2D0B1CDF23 /* Sources */,
+				B8D2EF26D44332529634ED835421C24E /* Frameworks */,
+				DBF6BCE897D84ABF47E45B771739A4E4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -333,7 +336,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C61C0726FF43B275A5A5EDF9AFE71116 /* GuiBaiCateroyKit */,
+				CF54D8EB7AF2F39F62E9735720A6D3E4 /* GuiBaiCateroyKit */,
 				20DDF16AA23CABD3025ED0DE2100D67A /* Pods-GuiBaiCateroyKit_Example */,
 				C0103DBAD290A17AD6CA4245B9627144 /* Pods-GuiBaiCateroyKit_Tests */,
 			);
@@ -341,13 +344,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		27D2558DEAD21BE2C58484DCF9B180E5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		486F94C02E7CEE3FC6742E87C0377490 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,6 +352,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C4B35E0B0AD5DC73A50E9E916ACBF0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF6BCE897D84ABF47E45B771739A4E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,20 +376,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4B0F80B948BCF6FD7B9A4B2D0B1CDF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669AC024A76BAD8D6DAB486E96AD7D56 /* GuiBaiCateroyKit-dummy.m in Sources */,
+				7D91F95B469C1ABBE1D401A319282FC3 /* NSString+Test.m in Sources */,
+				A259357840826EDC75A7399A6832656B /* TestSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ECDA86FAF55DB335C47A9947A4369CDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D11521EFB82777C678A37E1CDB16DED0 /* Pods-GuiBaiCateroyKit_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA10F552D64395AEB052E45BA9C6BCAE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				09E615B84A55FFAD05611D48C88BB237 /* GuiBaiCateroyKit-dummy.m in Sources */,
-				12164DA1E3AAEB6A83AD7A00A90AF703 /* NSString+Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +400,7 @@
 		01A506CCA19536A4D219B355EE35783A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GuiBaiCateroyKit;
-			target = C61C0726FF43B275A5A5EDF9AFE71116 /* GuiBaiCateroyKit */;
+			target = CF54D8EB7AF2F39F62E9735720A6D3E4 /* GuiBaiCateroyKit */;
 			targetProxy = 60CFAE4AC450D4BF9A10CC8E8FC177D3 /* PBXContainerItemProxy */;
 		};
 		63A2A402782CEFBE93F17649BE1C5253 /* PBXTargetDependency */ = {
@@ -408,38 +412,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A33C237732BD40D6B23A36D801EEC33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9867DBB2A83E967C53C0BA7DC83BF345 /* GuiBaiCateroyKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GuiBaiCateroyKit/GuiBaiCateroyKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GuiBaiCateroyKit/GuiBaiCateroyKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GuiBaiCateroyKit/GuiBaiCateroyKit.modulemap";
-				PRODUCT_MODULE_NAME = GuiBaiCateroyKit;
-				PRODUCT_NAME = GuiBaiCateroyKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		2CAC775A0F49B1245EEBC025F5D78C93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DFC2B2E7059CBFAED0D84B8B81237569 /* Pods-GuiBaiCateroyKit_Tests.release.xcconfig */;
@@ -698,9 +670,9 @@
 			};
 			name = Debug;
 		};
-		991C6ABEB261A49D72AFDA8DF31FE964 /* Debug */ = {
+		98DF113E546F03358A532594D5BE0DC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9867DBB2A83E967C53C0BA7DC83BF345 /* GuiBaiCateroyKit.xcconfig */;
+			baseConfigurationReference = CE459ADBFECAAB6F9C453B1EE715C1A9 /* GuiBaiCateroyKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -722,12 +694,44 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		D101BA2100E988E0AB01012DD437153C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE459ADBFECAAB6F9C453B1EE715C1A9 /* GuiBaiCateroyKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GuiBaiCateroyKit/GuiBaiCateroyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GuiBaiCateroyKit/GuiBaiCateroyKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GuiBaiCateroyKit/GuiBaiCateroyKit.modulemap";
+				PRODUCT_MODULE_NAME = GuiBaiCateroyKit;
+				PRODUCT_NAME = GuiBaiCateroyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -750,11 +754,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FC4107374EAA4C34AAC9088F2C20C24 /* Build configuration list for PBXNativeTarget "GuiBaiCateroyKit" */ = {
+		A92388BFDDDF022F26479934790B2C81 /* Build configuration list for PBXNativeTarget "GuiBaiCateroyKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				991C6ABEB261A49D72AFDA8DF31FE964 /* Debug */,
-				0A33C237732BD40D6B23A36D801EEC33 /* Release */,
+				98DF113E546F03358A532594D5BE0DC8 /* Debug */,
+				D101BA2100E988E0AB01012DD437153C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

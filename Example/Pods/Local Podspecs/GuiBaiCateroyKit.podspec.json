@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of GuiBaiCateroyKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/caimingsong/GuiBaiCateroyKit",
+  "homepage": "https://github.com/fakeros/GuiBaiCategoryKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "caimingsong": "caimingsong@qiyi.com"
   },
   "source": {
-    "git": "https://github.com/caimingsong/GuiBaiCateroyKit.git",
+    "git": "https://github.com/fakeros/GuiBaiCategoryKit.git",
     "tag": "0.1.0"
   },
   "platforms": {

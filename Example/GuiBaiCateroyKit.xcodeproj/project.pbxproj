@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CF2A1F24544D2500151688 /* TestSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF2A1E24544D2500151688 /* TestSwift.swift */; };
 		291BE240EDDFAA391FE5DA58 /* Pods_GuiBaiCateroyKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1FADA6BA82BB0F435052C7 /* Pods_GuiBaiCateroyKit_Tests.framework */; };
 		31F0CDFBA60AB84316EBBD60 /* Pods_GuiBaiCateroyKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1329E60B4544AF47203A9708 /* Pods_GuiBaiCateroyKit_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		1329E60B4544AF47203A9708 /* Pods_GuiBaiCateroyKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuiBaiCateroyKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CF2A1D24544D2500151688 /* GuiBaiCateroyKit_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuiBaiCateroyKit_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		18CF2A1E24544D2500151688 /* TestSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestSwift.swift; path = ../GuiBaiCateroyKit/Classes/TestSwift.swift; sourceTree = "<group>"; };
 		1B69B13CDE0C58E10E1F6A19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3332D53590748FB13FD93366 /* Pods-GuiBaiCateroyKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiBaiCateroyKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuiBaiCateroyKit_Tests/Pods-GuiBaiCateroyKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GuiBaiCateroyKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiBaiCateroyKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +184,8 @@
 				AFE8E40F6C5DAED7CAA3CCB4 /* GuiBaiCateroyKit.podspec */,
 				985A1074ED9655E4A401F67D /* README.md */,
 				1B69B13CDE0C58E10E1F6A19 /* LICENSE */,
+				18CF2A1E24544D2500151688 /* TestSwift.swift */,
+				18CF2A1D24544D2500151688 /* GuiBaiCateroyKit_Example-Bridging-Header.h */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -247,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = caimingsong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						LastSwiftMigration = 1140;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -371,6 +379,7 @@
 				6003F59E195388D20070C39A /* GBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				18CF2A1F24544D2500151688 /* TestSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,13 +507,18 @@
 			baseConfigurationReference = C6D234A6AE0FE52F111A6081 /* Pods-GuiBaiCateroyKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuiBaiCateroyKit/GuiBaiCateroyKit-Prefix.pch";
 				INFOPLIST_FILE = "GuiBaiCateroyKit/GuiBaiCateroyKit-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "GuiBaiCateroyKit_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -514,13 +528,17 @@
 			baseConfigurationReference = CB5DBDFA14F5324E08D88CB9 /* Pods-GuiBaiCateroyKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuiBaiCateroyKit/GuiBaiCateroyKit-Prefix.pch";
 				INFOPLIST_FILE = "GuiBaiCateroyKit/GuiBaiCateroyKit-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "GuiBaiCateroyKit_Example-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -529,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9753981BF7EDDAC59731584E /* Pods-GuiBaiCateroyKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -554,6 +573,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3332D53590748FB13FD93366 /* Pods-GuiBaiCateroyKit_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
