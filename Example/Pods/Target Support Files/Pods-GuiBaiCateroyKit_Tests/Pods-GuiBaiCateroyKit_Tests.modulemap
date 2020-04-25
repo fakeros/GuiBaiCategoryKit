@@ -1,0 +1,6 @@
+framework module Pods_GuiBaiCateroyKit_Tests {
+  umbrella header "Pods-GuiBaiCateroyKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

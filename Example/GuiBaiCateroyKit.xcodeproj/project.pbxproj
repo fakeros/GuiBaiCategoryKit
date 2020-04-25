@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1329E60B4544AF47203A9708 /* Pods_GuiBaiCateroyKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuiBaiCateroyKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B69B13CDE0C58E10E1F6A19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1B69B13CDE0C58E10E1F6A19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3332D53590748FB13FD93366 /* Pods-GuiBaiCateroyKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiBaiCateroyKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuiBaiCateroyKit_Tests/Pods-GuiBaiCateroyKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GuiBaiCateroyKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiBaiCateroyKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9753981BF7EDDAC59731584E /* Pods-GuiBaiCateroyKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiBaiCateroyKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuiBaiCateroyKit_Tests/Pods-GuiBaiCateroyKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		985A1074ED9655E4A401F67D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		985A1074ED9655E4A401F67D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AF1FADA6BA82BB0F435052C7 /* Pods_GuiBaiCateroyKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuiBaiCateroyKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFE8E40F6C5DAED7CAA3CCB4 /* GuiBaiCateroyKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GuiBaiCateroyKit.podspec; path = ../GuiBaiCateroyKit.podspec; sourceTree = "<group>"; };
+		AFE8E40F6C5DAED7CAA3CCB4 /* GuiBaiCateroyKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GuiBaiCateroyKit.podspec; path = ../GuiBaiCateroyKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C6D234A6AE0FE52F111A6081 /* Pods-GuiBaiCateroyKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiBaiCateroyKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuiBaiCateroyKit_Example/Pods-GuiBaiCateroyKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CB5DBDFA14F5324E08D88CB9 /* Pods-GuiBaiCateroyKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiBaiCateroyKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuiBaiCateroyKit_Example/Pods-GuiBaiCateroyKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -257,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,7 +303,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GuiBaiCateroyKit_Example/Pods-GuiBaiCateroyKit_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GuiBaiCateroyKit_Example/Pods-GuiBaiCateroyKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GuiBaiCateroyKit/GuiBaiCateroyKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -313,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuiBaiCateroyKit_Example/Pods-GuiBaiCateroyKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuiBaiCateroyKit_Example/Pods-GuiBaiCateroyKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E0960C5F895C7F3DC040D994 /* [CP] Check Pods Manifest.lock */ = {

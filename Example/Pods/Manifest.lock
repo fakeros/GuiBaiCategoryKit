@@ -1,0 +1,16 @@
+PODS:
+  - GuiBaiCateroyKit (0.1.0)
+
+DEPENDENCIES:
+  - GuiBaiCateroyKit (from `../`)
+
+EXTERNAL SOURCES:
+  GuiBaiCateroyKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GuiBaiCateroyKit: 1432cd2f5255b54858d65f52bfaea78638af3fb8
+
+PODFILE CHECKSUM: d5e05bebc866c6dfab62ef3e1fd4861cb6781485
+
+COCOAPODS: 1.6.0
