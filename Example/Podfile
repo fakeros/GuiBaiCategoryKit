@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'GuiBaiCateroyKit_Example' do
+  pod 'GuiBaiCateroyKit', :path => '../'
+
+  target 'GuiBaiCateroyKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
